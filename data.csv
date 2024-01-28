@@ -1,0 +1,7 @@
+Model,Rouge_Scores,Length_of_Summary,Training_Time
+BERTSumExt,0.75,130,9
+GPT-3,0.82,150,12
+T5,0.78,140,10
+XLNet,0.76,135,11
+BART,0.80,145,8
+Pegasus,0.79,138,13
