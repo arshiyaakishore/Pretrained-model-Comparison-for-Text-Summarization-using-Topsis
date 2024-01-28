@@ -10,6 +10,26 @@ graph TD;
   RankModels --> VisualizeResults;
   VisualizeResults --> End;
 ```
+Overview
+
+Condensing lengthy texts into brief yet meaningful summaries is the goal of text summarization, an important work in natural language processing. The goal of this project is to provide users with the information they need to select the best text summarizing model by comparing their respective performances.
+
+Key Features:
+
+Crucial Elements: Analytical Criteria Used:
+
+Important variables, such as Rouge scores, summary length, and training duration, form the basis of the comparison. While training duration and length reveal information about efficiency and resource needs, rouge scores evaluate the quality of the produced summaries.
+Approach - Summary:
+
+To do this comparison, we use the TOPSIS (Technique for Order of Preference by Similarity to Ideal Solution) approach. This approach ranks everything thoroughly by taking into account how close it is to the perfect answer as well as how far it is from the negative ideal solution.
+Models Under Review:
+
+As part of the comparison, we include real-world pretrained models including Pegasus, BERTSumExt, GPT-3, T5, XLNet, and BART. Text summarizing tasks make extensive use of these models.
+
+
+Analysis:
+When compared to other models, GPT-3 achieves the highest Rouge scores, indicating superior model performance. Competitive performance is demonstrated by BERTSumExt and T5, which follow closely behind. Effectiveness of Think about it: BERTSumExt needs the fewest resources and trains the fastest. The trade-off between efficiency and Rouge ratings is balanced in BART and T5. What come next? If you would want to get further insights, you can examine the attached CSV files. Based on your unique use case, you might want to think about changing the evaluation measures or introducing additional models. Make use of the project as a springboard for future work on text summarizing.
+
 
 ## Overview
 
